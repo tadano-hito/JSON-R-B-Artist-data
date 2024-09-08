@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top American Rappers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body onload="Kendrick()">
+    <div class="container">
+        <h1>Top American Rappers</h1>
+        <table>
+            <div class="image-container">
+                <img alt="an img" id="img" class="artist-img">
+                <button id="playButton" class="play-button">
+                    <i class="fa fa-play"></i>
+                </button>
+            </div>
+            <tr>
+                <th>Name</th>
+                <th>Song</th>
+            </tr>
+            <tr>
+                <td id="name">not found</td>
+                <td id="song">not found</td>
+            </tr>
+        </table>
+
+        <div class="button-container">
+            <button onclick="Kendrick()">Kendrick Lamar</button>
+            <button onclick="Travis()">Travis Scott</button>
+            <button onclick="TheWeeknd()">The Weeknd</button>
+            <button onclick="Savage()">21 Savage</button>
+            <button onclick="Eminem()">Eminem</button>
+            <button onclick="Future()">Future</button>
+            <button onclick="Playboi()()">Playboi Carti</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
